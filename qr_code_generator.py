@@ -1,7 +1,7 @@
 import qrcode
 
 data = input("Enter the text or URL : ").strip()
-filename = input("Enter the file name").strip()
+filename = input("Enter the file name : ").strip()
 
 qr = qrcode.QRCode(box_size=10, border=4)
 
